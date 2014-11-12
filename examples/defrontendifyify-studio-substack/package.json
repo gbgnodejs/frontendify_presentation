@@ -1,0 +1,22 @@
+{
+  "name": "defrontendifyify-studio-substack",
+  "description": "",
+  "keywords": "",
+  "author": {
+    "name": "James Kyburz",
+    "email": "james.kyburz@gmail.com"
+  },
+  "main": "topofthepops.js",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "npm install && node topofthepops"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "baudio": "^2.1.2",
+    "concat-stream": "^1.4.6",
+    "html-select": "^2.3.22",
+    "html-tokenize": "^1.2.2",
+    "hyperquest": "^1.0.1"
+  }
+}
