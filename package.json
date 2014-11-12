@@ -4,7 +4,7 @@
   "keywords": "frontend node npm browserify",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jameskyburz/frontendify_presentation"
+    "url": "git://github.com/gbgnodejs/frontendify_presentation"
   },
   "author": {
     "name": "James Kyburz",
