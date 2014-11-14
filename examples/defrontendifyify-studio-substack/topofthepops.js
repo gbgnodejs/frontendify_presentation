@@ -4,6 +4,7 @@ var select = require('html-select');
 var tokenize = require('html-tokenize');
 var baseurl = 'http://studio.substack.net';
 var baudio = require('baudio');
+var vm = require('vm');
 
 var s = select('.row > .link', link);
 
@@ -33,7 +34,8 @@ function player() {
 }
 
 function play(code) {
-  var f = Function(code)();
+  var script = vm.createScript('(function() { ' + code + '})');
+  var f = script.runInNewContext()();
   var b = baudio(f);
   b.play();
   setTimeout(end, 10000);
