@@ -14,9 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "baudio": "^2.1.2",
-    "concat-stream": "^1.4.6",
-    "html-select": "^2.3.22",
-    "html-tokenize": "^1.2.2",
-    "hyperquest": "^1.0.1"
+    "hyperquest": "^1.0.1",
+    "trumpet": "^1.7.0"
   }
 }
